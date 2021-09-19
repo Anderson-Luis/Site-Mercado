@@ -1,0 +1,469 @@
+header {
+    background-color: ;
+}
+
+img {
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #d7d9d8;
+}
+
+div.logo {
+    background-color: #000000;
+    width:100%;
+    height: 100%;
+}
+
+.menu {
+    border-bottom: 5px solid #cdd3d4;
+}
+
+.menu li {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+.menu ul {
+    margin-left: 200px;
+    margin-top: -50px;
+  }
+
+.menu a {
+    background-color: #dbe2eb;
+    padding:7px;
+  }
+
+.menu a:hover {
+    background-color: #92ece9;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.busca {
+    float: right;
+    margin-top: -45px;
+    margin-right: 20px;
+    padding: 6px;
+}
+
+.busca input {
+    height: 25px;
+    background-image: url('../imagens/lupa.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    border: 3px solid #c5c6c5;
+}
+
+
+.bloco1 {
+    display: block;
+    margin-left: 50px;
+    background-image: url('../imagens/bloco1.png');
+    background-repeat: no-repeat;
+    width: 483px;
+    height: 183px;
+    float: left;
+}
+
+.bloco1 a {
+    position: absolute;
+    text-align: center;
+    font-family: 'GothamBold', sans-serif;
+    text-decoration: none;
+}
+
+.bloco1 a h2 {
+    color: #0000ee;
+}
+
+.bloco1 p {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.btn {
+    position: absolute;
+    border: 3px solid rgb(57, 14, 180);
+    background-color: rgb(57, 14, 180);
+    padding: 7px;
+    margin-top: 12px;
+    margin-left: -45px;
+    color: #ffffff;
+}
+
+.bloco1#bl2 {
+    margin-left: 0px;
+}
+
+.bloco1#bl2 a {
+    margin-left: 43px;
+}
+
+.bloco1#bl3 {
+    float: right;
+    margin-top: -185px;
+    margin-right: -108px;
+}
+
+.novidades#nov {
+    background-color: #ffffff;
+    height: 275px;
+}
+
+.novidades#nov h1 {
+    margin-top: 260px;
+    margin-left: 50px;
+    color: rgb(57, 14, 180);
+}
+
+.novos#nov1 h1 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #ffc600;
+}
+
+.novos#nov1 p {
+    font-family: 'GothamBold', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.novos#nov1 a:hover {
+    background-color: #646a6b;
+}
+
+.btn2 {
+    position: absolute;
+    border: 3px solid #ffc600;
+    background-color: #ffc600;
+    color: #ffffff;
+    padding: 5px;
+    margin-left: -337px;
+    margin-top: 120px;
+
+}
+
+.novos#nov1 span {
+
+}
+
+.horario {
+    margin-left: 210px;
+    width: 171.5px;
+    height: 114.23;
+}
+
+.novos p {
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+.novos#nov2 {
+    float: right;
+    margin-right: 360px;
+    margin-top: -170px;
+}
+
+.novos#nov2 img {
+    width: 180px;
+    height: 115px;
+    margin-left: 290px;
+}
+
+.novos#nov2 h1 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #ffc600;
+}
+
+.novos#nov2 h1 {
+    margin-right: 320px;
+}
+
+.novos#nov2 p {
+    margin-top: -90px;
+    font-family: 'GothamBold', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn2#btn {
+    margin-left: -420px;
+}
+
+.titulof {
+    font-size: 16px;
+    color: #09bad9;
+    text-align: center;
+    margin-top: 50px;
+}
+.slidesf#sf img {
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+    margin-top: 65px;
+}
+.antes#btn {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 90px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #000000;
+}
+.depois#btn {
+    float: right;
+    border-left: 15px solid #000000;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    margin-left: 240px;
+    margin-top: -60px;
+}
+.mapasite {
+    background-color: #f2ff00;
+    height: 210px;
+    border-top: 25px solid #2f2983;
+}
+.mapasite h1 {
+    text-align: center;
+    font-family: 'GothamBold', sans-serif;
+    font-size: 18px;
+    color: #0998ff;
+}
+.creditos h1 {
+    font-family: Arial;
+    font-size: 14px;
+}
+.mapasite h2 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+.njt {
+    margin-left: 103px;
+    font-family: 'GothamBold',sans-serif;
+    font-size: 25px;
+}
+.lojas#lojas {
+    background-color: #ffffff;
+    margin-left: 68px;
+    margin-right: 68px;
+}
+.primeirodemaio {
+    margin-left: 85px;
+    margin-top: -33px;
+}
+.primeirodemaio#tel {
+    margin-top: -33px;
+    margin-left: 75px;
+}
+.primeirodemai#prm {
+    margin-top: -33px;
+    margin-left: 127px;
+}
+.endereco {
+    font-family: 'GothamBold',sans-serif;
+    font-weight: bold;
+    color: #0b9bd9;
+}
+.saojoao h3 {
+    font-family: 'GothamBold',sans-serif;
+    color: #0b9bd9;
+}
+.saojoao {
+    margin-left: 20px;
+    margin-right: 845px;
+    border: 1px solid #000000;
+}
+.estado h2 {
+    font-family: 'GothamBold',sans-serif;
+    color: #000000;
+    margin-left: 560px;
+}
+.saojoao#sim {
+    position:;
+    margin-left: 405px;
+    margin-right: 454px;
+    margin-top: -165px;
+}
+.simende {
+    margin-left: 87px;
+    margin-top: -33px;
+}
+.simfuncionamento {
+    margin-left: 133px;
+    margin-top: -33px;
+}
+.imbui {
+    margin-left: 800px;
+    margin-top: -165px;
+    margin-right: 35px;
+    border: 1px solid #000000;
+}
+.imbuifunc {
+    margin-left: 119px;
+    margin-top: -33px;
+}
+.imbui h3 {
+    font-family: 'GothamBold',sans-serif;
+    color: #0b9bd9;
+}
+.aracaju {
+    margin-left: 25px;
+    margin-right: 632px;
+    border: 1px solid #000000;
+}
+.aracaju h3 {
+  font-family: 'GothamBold',sans-serif;
+  color: #0b9bd9;
+}
+.ara {
+    margin-left: 75px;
+    margin-top: -34px;
+}
+.aracajufunc {
+    margin-left: 130px;
+    margin-top: -34px;
+}
+.campos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#nomec {
+    padding: 9px;
+    width: 350px;
+    border: 2px solid #2768f9;
+}
+#telefone {
+    padding: 9px;
+    width: 350px;
+    border: 2px solid #2768f9;
+}
+#email {
+    padding: 9px;
+    width: 350px;
+    border: 2px solid #2768f9;
+}
+#cidade {
+    padding: 9px;
+    width: 350px;
+    border: 2px solid #2768f9;
+}
+#ass {
+    padding: 9px;
+    width: 350px;
+    border: 2px solid #2768f9;
+}
+#msg {
+    padding: 9px;
+    width: 350px;
+    height: 122px;
+    border: 2px solid #2768f9;
+}
+.btne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btnenviar {
+    background: #2768f9;
+    text-transform: uppercase;
+    color: #f3d131;
+    padding: 10px 20px;
+}
+.campos label {
+    color: #2f2983;
+    font-family: 'GothamBold',sans-serif;
+    font-size: 16px;
+}
+.produtos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.pao#p {
+    border: 1px solid #000000;
+}
+.lataninho {
+    margin-left: 50px;
+}
+.lataninho#ltn {
+    border: 1px solid #000000;
+}
+.preco#ltn {
+    margin-left: 90px;
+}
+.tit {
+    font-family: 'GothamBold',sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.preco {
+  font-family: 'GothamBold',sans-serif;
+  font-size: 18px;
+}
+.preco#ltn {
+  font-family: 'GothamBold',sans-serif;
+  font-size: 18px;
+}
+.produtos2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.manteiga#mtg {
+    border: 1px solid #000000;
+}
+.manteiga#mt {
+    margin-left: 70px;
+    border: 1px solid #000000;
+}
+.produtos3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.papel#hi {
+    border: 1px solid #000000;
+}
+.papel#hig {
+    margin-left: 70px;
+    border: 1px solid #000000;
+}
+.manteiga#mt {
+    margin-left: 70px;
+    border: 1px solid #000000;
+}
+.tch {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    color: #0a7cf2;
+}
+.tch2 {
+    font-family: Arial;
+    font-size: 16px;
+    text-align: justify; 
+}
