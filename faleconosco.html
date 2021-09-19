@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="css/design.css"/>
+</head>
+<body>
+<header id="cabecalho">
+    <div class="logo">
+        <img src="imagens/logo2.png"/>
+<nav class="menu">
+    <ul>
+        <li><a href="mercado.php">Início</a></li>
+        <li class="of"><a href="ofertas.html">Ofertas</a></li>
+        <li><a href="nossaslojas.html">Nossas Lojas</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>
+    </ul>
+    <div class="busca">
+        <input placeholder="Busca" type="text"/>
+    </div>
+    </div>
+</nav>
+</header>
+
+<div class="njtitulo">
+    <h1 class="njt">CONTATO</h1>
+</div>
+<div class="lojas" id="lojas">
+    <div class="campos">
+        <form action="mercadoconexao.php" method="post" class="formulario">
+            <label for="nomec">Nome Completo</label><br/>
+            <input type="text" id="nomec" name="nomec" required/><br/><br/>
+            <label for="telefone">Telefone</label><br/>
+            <input type="text" id="telefone" name="telefone" required/><br/><br/>
+            <label for="email">Email</label><br/>
+            <input type="text" id="email" name="email" required/><br/><br/>
+            <label for="cidade">Cidade e Estado</label><br/>
+            <input type="text" id="cidade" name="cidade"/><br/><br/>
+            <label for="ass">Assunto</label><br/>
+            <input type="text" id="ass" name="ass"/><br/><br/>
+            <label for="msg">Mensagem</label><br/>
+            <!--<input type="text" id="msg" name="msg" required/><br/><br/>-->
+            <textarea id="msg" name="msg" required/></textarea><br/><br/>
+            <div class="btne">
+                <input type="submit" id="btnenviar" name="btnenviar" value="Enviar"/>
+            </div>
+        </form>
+    </div>
+</div>
+<br/><br/>
+
+    <div class="mapasite">
+        <h1>Mapa do Site:</h1>
+        <a href="mercado.php"><h2>Início</h2></a>
+        <a href="ofertas.html"><h2>Ofertas</h2></a>
+        <a href="nossaslojas.html"><h2>Nossas Lojas</h2></a>
+        <a href="faleconosco.html"><h2>Fale Conosco</h2></a>
+    </div>
+
+    <footer class="creditos">
+        <h1>Powered by: Anderson Luis - Todos os direitos reservados</h1>
+    </footer>
+
+
+</body>
+</html>
